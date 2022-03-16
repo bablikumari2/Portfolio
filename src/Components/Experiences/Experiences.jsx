@@ -47,7 +47,7 @@ const Experiences = () => {
 
 			<div className={styles.container}>
 				<div className={styles.position}>
-				A.N College | Gratuation{' '}
+				A.N College | Graduation{' '}
 					<a href='/'>  Learning Accountant, Law, Financial & Taxation. </a>
 				</div>
 				<div className={styles.date}>June 2015 - Febuary 2019</div>
