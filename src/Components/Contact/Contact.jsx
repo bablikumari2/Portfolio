@@ -23,7 +23,7 @@ const Contact = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.contactOptions}
 				>
-					<a
+					{/* <a
 						href='tel:7033389127'
 						aria-label='GitHub'
 						rel='noreferrer'
@@ -38,7 +38,7 @@ const Contact = () => {
 						rel='noreferrer'
 					>
 						<i className='far fa-envelope'></i>
-					</a>
+					</a> */}
 					{/* <a
 						href='https://twitter.com/Niteshkumargos1'
 						aria-label='Twitter'
@@ -64,7 +64,15 @@ const Contact = () => {
 					>
 						<i className='fab fa-linkedin-in' />
 					</a>
+					<br/>
+					
+					<i className='far fa-envelope'></i>
+				<h3>anandbabli96@gmail.com</h3>
+				<i className='fas fa-phone-alt' />
+				<h3>91 7033389127</h3>
+				
 				</div>
+			
 			</div>
 			<div
 				style={{ background: `${newTheme.line}` }}

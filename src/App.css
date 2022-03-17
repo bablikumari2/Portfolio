@@ -53,9 +53,9 @@ button {
 .links a {
 	margin: 20px;
 }
-a:hover {
+/* a:hover {
 	color: #00a0a0;
-}
+} */
 ::-webkit-scrollbar {
 	width: 5px;
 	height: 5px;

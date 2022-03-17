@@ -66,6 +66,31 @@ const Card = (props) => {
 							</span>
 						))}
 					</div>
+					<div className={styles.dialogElements}>
+							<div
+								style={{
+									color: `${newTheme.title}`,
+								}}
+								className={styles.actionBtns}
+							>
+								<a
+									href={gitHub}
+									rel='noopener noreferrer'
+									target='_blank'
+								>
+									<i className='fab fa-github' />
+								</a>
+								<a
+									href={live}
+									rel='noopener noreferrer'
+									target='_blank'
+								>
+									<i className='fas fa-external-link-alt' />
+								</a>
+								
+							</div>
+						
+					
 				</div>
 
 				<Dialog
@@ -97,7 +122,9 @@ const Card = (props) => {
 									{technology}
 									{index !== technologies.length - 1 ? ',' : '.'}
 								</div>
+								
 							))}
+									
 						</div>
 						<div
 							style={{
@@ -127,32 +154,40 @@ const Card = (props) => {
 								>
 									<i className='fas fa-external-link-alt' />
 								</a>
+								<a href={gitHub} rel='noopener noreferrer' target='_blank'>
+						<i className='fab fa-github' />
+					</a>
+					<a href={live} rel='noopener noreferrer' target='_blank'>
+						<i className='fas fa-external-link-alt' />
+					</a>
 							</div>
 							<Button
 								text='close'
 								handleButton={handleClose}
 								padding='10px 20px'
 							/>
+						
 						</div>
+						
 					</div>
 				</Dialog>
 				{/* -----------------For hovering container--------------- */}
-				<div
+				{/* <div
 					style={{
 						color: `${newTheme.para}`,
 						background: `${newTheme.linkHover}`,
 					}}
 					className={styles.description}
-				>
-					<a href={gitHub} rel='noopener noreferrer' target='_blank'>
+				> */}
+					{/* <a href={gitHub} rel='noopener noreferrer' target='_blank'>
 						<i className='fab fa-github' />
 					</a>
 					<a href={live} rel='noopener noreferrer' target='_blank'>
 						<i className='fas fa-external-link-alt' />
-					</a>
+					</a> */}
 				</div>
 			</div>
-		</div>
+		// </div>
 	);
 };
 

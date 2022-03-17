@@ -18,7 +18,7 @@
 	padding: 10px;
 	color: cornsilk;
 	transition: 0.5s;
-	clip-path: circle(50%)
+	/* clip-path: circle(50%) */
 
 	/* clip-path: polygon(
 		50% 0%,
