@@ -8,15 +8,15 @@ const About = () => {
 	const [width] = WindowSize();
 	const img =
 		width < 650
-			? 'https://media-exp1.licdn.com/dms/image/C4E03AQFjS-U02TmDag/profile-displayphoto-shrink_400_400/0/1644759737873?e=1652918400&v=beta&t=iMZJgmUTJpKtbp3HzHeEWh6Dzv_LkCd_qrL6WR0_K3U' // my Picture
-			: 'https://i.pinimg.com/originals/f5/b0/45/f5b045627b6c125e500fc02f42d79763.jpg';
+			? 'https://media-exp1.licdn.com/dms/image/C4E03AQF1TgzK1-djBw/profile-displayphoto-shrink_400_400/0/1647675196680?e=1652918400&v=beta&t=Vs3P8oEgamlsvTJ5PdDpj02mgZu1NQftxHHCDYVudlQ' // my Picture
+			: 'https://cdn2.careeraddict.com/uploads/article/58447/illustration-woman-desk-computers.jpg';
 	return (
 		<div
 			className={styles.container}
 			style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
 		>
 			<div className={styles.first}>
-				<img src={"https://i.pinimg.com/originals/f5/b0/45/f5b045627b6c125e500fc02f42d79763.jpg"} alt='' />
+				<img src={"https://cdn2.careeraddict.com/uploads/article/58447/illustration-woman-desk-computers.jpg"} alt='' />
 			</div>
 			<div className={styles.second}>
 				<h1
@@ -30,8 +30,7 @@ const About = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.aboutMe}
 				>
-					Hello! My name is Babli Kumari and I enjoy creating things that
-					live on the internet.
+					Hello! My name is Babli Kumari.
 					<br /> Fast Forwarding to today, I built a number of web
 					applications and 3 major projects. Learned a great deal
 					about teamwork, leadership, and communication. After months

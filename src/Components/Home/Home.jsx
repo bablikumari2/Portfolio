@@ -110,7 +110,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://media-exp1.licdn.com/dms/image/C4E03AQFjS-U02TmDag/profile-displayphoto-shrink_400_400/0/1644759737873?e=1652918400&v=beta&t=iMZJgmUTJpKtbp3HzHeEWh6Dzv_LkCd_qrL6WR0_K3U' //my Picture
+						src='https://media-exp1.licdn.com/dms/image/C4E03AQF1TgzK1-djBw/profile-displayphoto-shrink_400_400/0/1647675196680?e=1652918400&v=beta&t=Vs3P8oEgamlsvTJ5PdDpj02mgZu1NQftxHHCDYVudlQ' //my Picture
 						alt='Profile pic'
 					/>
 				</div>
