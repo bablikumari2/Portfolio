@@ -30,16 +30,18 @@ const About = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.aboutMe}
 				>
-					Hello! My name is Babli Kumari.
-					<br /> Fast Forwarding to today, I built a number of web
-					applications and 3 major projects. Learned a great deal
-					about teamwork, leadership, and communication. After months
-					of rigorous training, here I am
+					Hello! Everyone I am  Babli Kumari .
+					<br />A highly dedicated and passionate full-stack web developer with excellent
+
+					administrative and communication skills and the ability to write efficient code.
+					Self motivated, quick-learner and curious with proficiency in MERN stack.
+					
+
 					<span style={{ color: `#00a0a0` }}>
 						{' '}
-						looking for an opportunity as a full stack web developer
+						Adaptive to new technology and environment.
 					</span>
-					.
+					
 				</p>
 			</div>
 		</div>

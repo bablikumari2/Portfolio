@@ -26,7 +26,10 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-html5-plain colored' />
+					{/* <i className='devicon-html5-plain colored' /> */}
+					{/* <i class="devicon-html5-plain-wordmark"></i> */}
+					<i class="devicon-html5-plain"></i>
+					{/* <img src='https://img.icons8.com/nolan/344/html-5.png'></img> */}
 					<span>HTML</span>
 				</div>
 				<div
@@ -36,7 +39,8 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-css3-plain colored' />
+					{/* <i className='devicon-css3-plain colored' /> */}
+					<i class="devicon-css3-plain"></i>
 					<span>CSS</span>
 				</div>
 				<div
@@ -46,7 +50,8 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-javascript-plain colored' />
+					{/* <i className='devicon-javascript-plain colored' /> */}
+					<i class="devicon-javascript-plain"></i>
 					<span>Javascript</span>
 				</div>
 				<div
@@ -56,7 +61,8 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-react-original colored' />
+					{/* <i className='devicon-react-original colored' /> */}
+					<i class="devicon-react-original"></i>
 					<span>React</span>
 				</div>
 				<div
@@ -67,8 +73,9 @@ const TechStacks = () => {
 					className={styles.logoWrapper}
 				>
 					<i
-						style={{ color: '#7248B6' }}
-						className='devicon-redux-original'
+						
+						// className='devicon-redux-original'
+						class="devicon-redux-original"
 					/>
 					<span>Redux</span>
 				</div>
@@ -79,10 +86,7 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i
-						style={{ color: '#509941' }}
-						className='devicon-nodejs-plain'
-					/>
+					<i class="devicon-nodejs-plain"></i>
 					<span>Node</span>
 				</div>
 				<div
@@ -102,7 +106,7 @@ const TechStacks = () => {
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-mongodb-plain colored' />
+				<i class="devicon-mongodb-plain"></i>
 					<span>MongoDB</span>
 				</div>
 			</div>
