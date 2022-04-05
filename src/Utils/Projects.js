@@ -17,15 +17,17 @@ export const projects = [
 		gitHub: 'https://github.com/sauravsaran99/lakmeindia',
 		technologies: [ 'HTML', 'CSS',"JavaScript","Bootstrap"],
 	},
-	// {
-	// 	img: 'https://user-images.githubusercontent.com/86410034/129320136-4642eb9e-8500-4058-a8c3-440bb38dafc7.png',
-	// 	title: 'Clone of Bluemercury',
-	// 	des: 'This is a clone of a US-based e-commerce website for cosmetic products built with HTML, CSS, and JS Has features that allow user live search of the products with a sorting feature.',
-	// 	demo: '',
-	// 	live: 'https://bluemercuryclone.netlify.app/html/homepage.html',
-	// 	gitHub: 'https://github.com/Nitesh-Goshwami/Bluemercury',
-	// 	technologies: ['HTML', 'CSS', 'javaScript'],
-	// },
+	{
+		img: 'https://miro.medium.com/max/1400/1*S1oiZ43u5VIkZ_GiF_YeNg.png',
+		title: 'Clone of Ganna ',
+		des: 'Gaana is the one-stop solution for all your music needs. Its offers you free, unlimited access to over 30 million Hindi Songs, Bollywood Music.',
+		
+		
+		demo: '',
+		live: 'https://gaana-app.vercel.app/',
+		gitHub: 'https://github.com/gautamverma095/gaanaApp',
+		technologies: ['React', 'Redux', 'javaScript' , 'Express' , 'Node js.'],
+	},
 	// {
 		// 	img: 'https://camo.githubusercontent.com/b7f4aa8c34ddf776dd19b78dc3488456470a73e5026f48784e9e753601468802/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4c62507030307771454537386c6f68584d372f67697068792e676966',
 		// 	title: 'Clone of Fitness Blender',
