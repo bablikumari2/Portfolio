@@ -82,7 +82,7 @@ const Contact = () => {
 				style={{ color: `${newTheme.para}` }}
 				className={styles.copyright}
 			>
-				Designed and build by Babli Kumari, 2022 All rights
+				Designed and built by Babli Kumari, 2026. All rights
 				reserved.
 			</div>
 		</footer>

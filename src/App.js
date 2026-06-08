@@ -13,7 +13,7 @@ function App() {
 	useEffect(() => {
 		setTimeout(() => {
 			setState(true);
-		}, 2200);
+		}, 1000);
 	}, []);
 
 	return (
@@ -21,7 +21,7 @@ function App() {
 			{!state ? (
 				<div
 					style={{
-						background: `${newTheme.background}`,
+						background: '#0e0914',
 					}}
 					className='logoStart'
 				>

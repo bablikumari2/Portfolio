@@ -79,13 +79,14 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-					I am a goal-oriented, productive and aspiring MERN-Stack web developer. Excited to become an integral part of an organization. 
+					I am a Full Stack Developer (MERN | AI Integration) with 4 years of experience building scalable web applications and integrating AI-powered features using the OpenAI API.
                     {/* and make a significant contribution to its innovations. */}
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1A6-ZiSLP-6QMhf9jfQD97W-eKRzIKWs8/view?usp=sharing' // Resume
-							target='blank'
+							href={process.env.PUBLIC_URL + '/Babli_Kumari_Resume.pdf'} // Resume
+							target='_blank'
+							rel='noreferrer'
 						>
 							<Button
 								text={
@@ -110,8 +111,9 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://media-exp1.licdn.com/dms/image/C4E03AQF1TgzK1-djBw/profile-displayphoto-shrink_400_400/0/1647675196680?e=1652918400&v=beta&t=Vs3P8oEgamlsvTJ5PdDpj02mgZu1NQftxHHCDYVudlQ' //my Picture
+						src='https://avatars.githubusercontent.com/bablikumari2'
 						alt='Profile pic'
+						onError={(e) => { e.target.style.display = 'none'; }}
 					/>
 				</div>
 			</div>
@@ -162,14 +164,14 @@ const Home = ({ scrollRef }) => {
 						<Card key={index} {...item} />
 					))}
 				</div>
-				{/* <Button
+				<Button
 					text={
-						projects.length == 3
-							? 'Show More'
-							: 'Show Less'
+						projectArray.length === projects.length
+							? 'Show Less'
+							: 'Show More'
 					}
 					handleButton={handleShowMoreBtn}
-				/> */}
+				/>
 			</div>
                  <div
 				style={{

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 320" fill="none" role="img" aria-label="Elevence">
+  <g transform="rotate(45 110 108)">
+    <rect x="75" y="-8.5" width="70" height="233" rx="35" fill="#FD983F"/>
+  </g>
+  <g transform="rotate(45 160 196)">
+    <rect x="126" y="100" width="68" height="192" rx="34" fill="#C43878"/>
+  </g>
+  <g transform="rotate(45 222 262)">
+    <rect x="191.5" y="216" width="61" height="92" rx="30.5" fill="#54C7F0"/>
+  </g>
+</svg>

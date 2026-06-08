@@ -73,13 +73,15 @@ const Card = (props) => {
 								}}
 								className={styles.actionBtns}
 							>
-								<a
-									href={gitHub}
-									rel='noopener noreferrer'
-									target='_blank'
-								>
-									<i className='fab fa-github' />
-								</a>
+								{gitHub && (
+									<a
+										href={gitHub}
+										rel='noopener noreferrer'
+										target='_blank'
+									>
+										<i className='fab fa-github' />
+									</a>
+								)}
 								<a
 									href={live}
 									rel='noopener noreferrer'
@@ -87,7 +89,6 @@ const Card = (props) => {
 								>
 									<i className='fas fa-external-link-alt' />
 								</a>
-								
 							</div>
 						
 					
@@ -140,13 +141,15 @@ const Card = (props) => {
 								}}
 								className={styles.actionBtns}
 							>
-								<a
-									href={gitHub}
-									rel='noopener noreferrer'
-									target='_blank'
-								>
-									<i className='fab fa-github' />
-								</a>
+								{gitHub && (
+									<a
+										href={gitHub}
+										rel='noopener noreferrer'
+										target='_blank'
+									>
+										<i className='fab fa-github' />
+									</a>
+								)}
 								<a
 									href={live}
 									rel='noopener noreferrer'
@@ -154,12 +157,6 @@ const Card = (props) => {
 								>
 									<i className='fas fa-external-link-alt' />
 								</a>
-								<a href={gitHub} rel='noopener noreferrer' target='_blank'>
-						<i className='fab fa-github' />
-					</a>
-					<a href={live} rel='noopener noreferrer' target='_blank'>
-						<i className='fas fa-external-link-alt' />
-					</a>
 							</div>
 							<Button
 								text='close'

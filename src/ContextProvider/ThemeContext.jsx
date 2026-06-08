@@ -12,7 +12,15 @@ import { theme } from '../Utils/themes';
 // 	}
 // 	return mode;
 // };
-const getMode = JSON.parse(localStorage.getItem('theme')) || 'dark';
+let getMode = 'dark';
+try {
+	const savedMode = localStorage.getItem('theme');
+	if (savedMode && (savedMode === '"dark"' || savedMode === '"light"')) {
+		getMode = JSON.parse(savedMode);
+	}
+} catch (e) {
+	getMode = 'dark';
+}
 export const ThemeContext = createContext();
 
 const ThemeContextProvider = ({ children }) => {

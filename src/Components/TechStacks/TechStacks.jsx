@@ -109,6 +109,86 @@ const TechStacks = () => {
 				<i class="devicon-mongodb-plain"></i>
 					<span>MongoDB</span>
 				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-nextjs-plain"></i>
+					<span>Next.js</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-tailwindcss-plain"></i>
+					<span>Tailwind</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-nestjs-plain"></i>
+					<span>NestJS</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-postgresql-plain"></i>
+					<span>PostgreSQL</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-react-original"></i>
+					<span>React Native</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-amazonwebservices-plain-wordmark"></i>
+					<span>AWS</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-git-plain"></i>
+					<span>Git</span>
+				</div>
+				<div
+					style={{
+						color: `${newTheme.title}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i className='fas fa-robot'></i>
+					<span>OpenAI API</span>
+				</div>
 			</div>
 		</div>
 	);

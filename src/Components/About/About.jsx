@@ -30,16 +30,16 @@ const About = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.aboutMe}
 				>
-					Hello! Everyone I am  Babli Kumari .
-					<br />A highly dedicated and passionate full-stack web developer with excellent
-
-					administrative and communication skills and the ability to write efficient code.
-					Self motivated, quick-learner and curious with proficiency in MERN stack.
-					
+					Hello! I'm Babli Kumari, a Full Stack Developer with 4 years of experience building scalable web applications using the MERN stack.
+					<br />I specialize in developing responsive user interfaces, designing
+					REST APIs, and integrating AI-powered features using the OpenAI API. Across
+					my roles I've built and deployed 10+ production applications, improved API
+					response times by ~30%, and reduced frontend load times by ~25% while
+					collaborating with cross-functional teams.
 
 					<span style={{ color: `#00a0a0` }}>
 						{' '}
-						Adaptive to new technology and environment.
+						Self-motivated, quick learner, and adaptive to new technology and environments.
 					</span>
 					
 				</p>
